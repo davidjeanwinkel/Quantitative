@@ -20,7 +20,7 @@ library(factoextra)
 library(tictoc)
 ```
 
-This is the README file for the experiment.
+This is the README file for the experiment. The concepts and information presented in this repository are based on research results that are not commercially available.
 
 ``` r
 sessionInfo()
