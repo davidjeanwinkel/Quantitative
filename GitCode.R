@@ -40,9 +40,6 @@ df_ground_truth <- df_final %>%
 col_vector_factor <- c(1, 12:14, 17, 18)
 df_ground_truth[, col_vector_factor] <- lapply(df_ground_truth[, col_vector_factor], as.factor)
 
-df_ground_truth <- df_ground_truth %>%
-  select(PIRADS, Gleason_1:PIRADS_grading, T2_Normal:Ve)
-
 
 # First Data Visualization ------------------------------------------------
 
