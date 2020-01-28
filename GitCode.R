@@ -21,7 +21,7 @@ library(tictoc)
 tic()
 
 
-df_final <- read_excel("df_combined_2.xlsx", sheet=1)
+df_final <- read_excel("data.xlsx", sheet=1)
 
 df_ground_truth <- df_final %>%
   mutate(
